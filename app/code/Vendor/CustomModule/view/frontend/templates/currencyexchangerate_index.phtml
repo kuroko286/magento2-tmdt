@@ -6,6 +6,32 @@
 $currencies = $block->getCurrencyExchangeRate()['Exrate'];
 //var_dump();
 ?>
+<style>
+    h2{
+        text-align: center;
+        font-weight:500;
+    }
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background: rgb(226, 219, 219);
+}
+tr:hover {
+    background-color: #f8c291;
+    cursor: pointer;
+}
+
+.currency-code {
+    text-align: center;
+}
+th,
+td {
+    border: 1px solid black;
+    text-align:center;
+}
+</style>
 <h2>Tỉ giá tiền tệ</h2>
 <table>
     <tr>

@@ -6,7 +6,24 @@
 $news = $block->getNews()['channel']['item'];
 //$n = $block->getCurrencyExchangeRate()['Exrate'];
 ?>
+<style>
+.module-title {
+    margin: 0 auto;
+    max-width: 600px;
+    font-weight: 500;
+}
 
+.new {
+    margin: 0 auto;
+    max-width: 600px;
+}
+.new h2 {
+    font-weight: 500;
+}
+.new img {
+    width: 600px;
+}
+</style>
 <h1 class="module-title">Bản tin kinh doanh</h1>
 
 <?php foreach($news as $new): ?>

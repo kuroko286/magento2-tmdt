@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <head>
+    <!-- <head>
         <css src="Vendor_CustomModule::css/news_style.css"/>
-    </head>
+    </head> -->
     <referenceContainer name="content">
         <block class="Vendor\CustomModule\Block\NewsIndex" name="custommodule_news_index" template="Vendor_CustomModule::news_index.phtml" />
     </referenceContainer>
